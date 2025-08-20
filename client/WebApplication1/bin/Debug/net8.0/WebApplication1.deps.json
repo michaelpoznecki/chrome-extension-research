@@ -1,0 +1,60 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WebApplication1/1.0.0": {
+        "dependencies": {
+          "Lyre": "1.0.10",
+          "Newtonsoft.Json": "13.0.4-beta1"
+        },
+        "runtime": {
+          "WebApplication1.dll": {}
+        }
+      },
+      "Lyre/1.0.10": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.4-beta1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Lyre.dll": {
+            "assemblyVersion": "1.0.10.0",
+            "fileVersion": "1.0.10.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.4-beta1": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.4.30731"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebApplication1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lyre/1.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ABhNxMzsWNwE0xQNvAWulYFWp5MGAjBHBnDGqH+bIHgx+MZBo//fuZ6twJKEB5Xm+mzSBVkysUtTIgYyk7nY8g==",
+      "path": "lyre/1.0.10",
+      "hashPath": "lyre.1.0.10.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.4-beta1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6V0WDUzcU5p3R2/RN6UC+1wJtWfCB9YahSUe37mSGbPoH+Q84HTOjmsLIgynkZwJb/NYv0vFARSvDdUse3ZODA==",
+      "path": "newtonsoft.json/13.0.4-beta1",
+      "hashPath": "newtonsoft.json.13.0.4-beta1.nupkg.sha512"
+    }
+  }
+}

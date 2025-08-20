@@ -1,0 +1,24 @@
+<html>
+  <body>
+    Nothing to see here
+    <input id="click me" type="button" value="click me"/>
+  </body>
+  <script>
+    var btn = document.getElementById("click me");
+    btn.addEventListener("click", message);
+    function message() {
+      window.postMessage({
+        type: 'Request',
+        command: "GET_IP",
+        parameters: null
+      }, "*");
+    };
+    window.addEventListener("message",
+      (event) => {
+        console.log("Got response: ");
+        console.log(event.data);
+      },
+      false,
+      );
+  </script>
+</html

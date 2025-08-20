@@ -1,0 +1,9 @@
+{
+    "name": "com.my_company.my_app",
+    "description": "My App",
+    "path": "C:\\Users\\user\\Desktop\\ExtensionMessenger\\WebApplication1\\bin\\Debug\\net8.0\\WebApplication1.exe",
+    "type": "stdio",
+    "allowed_origins": [
+        "chrome-extension://hmnabdmpadijpfdgbkehckeifbgkcomo/"
+    ]
+}
